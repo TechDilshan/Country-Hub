@@ -4,7 +4,7 @@ import axios from 'axios';
 import { toast } from "sonner";
 
 // API base URL
-const API_URL = 'http://localhost:5001/api';
+const API_URL = 'https://countryback.dynac.space/api';
 
 // Create axios instance with credentials
 const api = axios.create({

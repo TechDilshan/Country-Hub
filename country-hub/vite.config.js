@@ -5,7 +5,7 @@ import path from "path";
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
-    port: 3000,
+    port: 3002,
     allowedHosts: ['countryhub.dynac.space']
   },
   plugins: [
